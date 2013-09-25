@@ -1,15 +1,15 @@
 %define upstream_name    Module-Extract-Use
-%define upstream_version 1.01
+%define upstream_version 1.03
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Release:	1
 
 Summary:	Pull out the modules a module uses
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Module/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Module/Module-Extract-Use-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(PPI)
@@ -65,3 +65,4 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Sat Jan 16 2010 cpan2dist 0.17-1mdv
 - initial mdv release, generated with cpan2dist
+
