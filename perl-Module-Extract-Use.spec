@@ -8,7 +8,7 @@ Release:	3
 Summary:	Pull out the modules a module uses
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{upstream_name}
+Url:		https://search.cpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/Module/Module-Extract-Use-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
